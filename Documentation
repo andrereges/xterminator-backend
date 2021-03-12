@@ -1,0 +1,30 @@
+Aplications
+    - name
+GroupCommands
+    - name
+Commands
+    - name
+Enviroments
+    - name
+    - ip
+    - ssh
+    - localServerName
+    - user
+    - password
+Users
+    - name
+    - username
+    - password
+Permissions
+    - name
+Groups - Morph
+    - name
+GroupPermissions
+    - group
+    - permission
+GroupPermissionUsers
+    - groupPermission
+    - user
+Routers
+    - name
+    -slug

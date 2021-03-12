@@ -1,0 +1,15 @@
+Postgresql
+
+getLogs
+
+- Acessa o storage no diretório /postgresql.
+- Lista todos arquivos.
+- Cria um array com nome e URL do arquivo.
+- É excluído o diretorio e extensão do arquivo.
+- A URL tem o domínio da aplicação e nome completo do arquivo.
+- É ordenado nome dos arquivos em ordem alfabética decrescente.
+
+crear
+
+- Envia comando shell para docker limpar o texto do arquivo
+/var/lib/postgresql/data/log/postgresql.log

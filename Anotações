@@ -1,0 +1,40 @@
+php artisan serve --host=192.168.1.214 --port=2280
+
+php artisan make:model Command --migration
+
+php artisan storage:link
+
+// install bootstrap 4
+composer require laravel/ui
+php artisan ui bootstrap vue
+npm install && npm run dev
+
+// js and css laravel mix
+npm install vue-router vue-axios --save
+npm install
+npm run dev -> ao alterar arquivos públicos js, css
+npm run watch -> Assiste mudanças na vue js
+
+npm install --save @fortawesome/fontawesome-free
+https://fontawesome.com/icons?d=gallery&m=free
+
+php artisan make:controller DockerCommandController --resource
+php artisan config:cache
+
+=== CREATE NEW COMMAND STEPs ===
+
+Include in array CommandGroup.vue command group and command selectbox.
+
+Create folder in components/command/new_folder after create vue file.
+
+Custom vue file.
+
+Insert new route in routes.js
+
+Insert route in api.php
+
+Create Controller and Model
+
+Create methods
+
+Tests
